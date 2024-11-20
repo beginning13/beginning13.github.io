@@ -1,0 +1,84 @@
+.color-example {
+    color: aqua;
+    background-color: #ff8000;
+    border: #ff0000 3px;
+}
+.header-example {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkred;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.list-example {
+    list-style-type: square;
+    color: darkmagenta;
+}
+.text-example {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.div-example {
+    background-color: bisque;
+    border: orange 7px;
+}
+.upper-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aqua;
+    font-weight: bold;
+}
+a {
+    color: crimson;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+a:visited {
+    color:coral;
+}
+a:active {
+    color: chartreuse;
+}
+a:focus {
+    outline: 1px solid black;
+}
+body {
+    background-color: bisque;
+}
+h1 {
+    border-bottom: 5px groove blue;
+    border-right: 5px groove blue;
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    border-bottom: 1px dotted black;
+    padding: 20px 0px 10px;
+}
+p {
+    background-color: skyblue;
+    border: 3px dashed grey;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+}
+li {
+    padding: 14px 20px;
+}
+#footer {
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+}
