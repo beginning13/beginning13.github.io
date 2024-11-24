@@ -1,0 +1,41 @@
+#aside {
+  background-color: cornsilk;
+}
+#header {
+    background-color: beige;
+}
+#nav {
+    background-color: bisque;
+}
+#section {
+    background-color: blanchedalmond;
+}
+#article {
+    background-color: burlywood;
+}
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.equalheight {
+    display: flex;
+}
+.vertical {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.half {
+    flex: 1;
+}
+.double {
+    flex: 2;
+}
+.third {
+    flex: 1;
+}
+footer {
+    text-align: center;
+}
