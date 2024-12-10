@@ -1,0 +1,254 @@
+h1 {
+    color: rgb(207, 71, 119);
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 15px;
+}
+.h1-hyperlink {
+    color: inherit;
+    text-decoration: none;
+}
+h2 {
+    color: rgb(207, 71, 119);
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px 0px;
+    width: 100%;
+}
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px;
+}
+h4 {
+    color: rgb(207, 71, 119);
+    font-size: 1.4em;
+    text-align: center;
+    padding: 1.5em 0em 0em 0em;
+}
+h5 {
+    color: rgb(207, 71, 119);
+    font-size: 2.4em;
+    text-align: center;
+    margin-bottom: 0;
+}
+h6 {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+body, h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Futura', 'Arial', 'Helvetica', sans-serif; 
+    font-weight: 300;
+    line-height: 1.9em;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    width: 60%;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+.main-menu, .so-me {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-menu li a, .so-me li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.main-menu li a:hover, .so-me li a:hover {
+    color: black;
+}
+.grey-horizontal-line {
+    border: none;
+    border-top: 1px solid grey;
+    margin: 0;
+    width: 60%;
+}
+.cherry-horizontal-line {
+    border: none;
+    border-top: 1px solid rgba(224, 120, 120, 0.654);
+    margin: 0;
+    width: 100%;
+}
+.footer {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.legal {
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    color: white;
+    background-color: #360606;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.legal-text {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.legal-left, .legal-center, .legal-right {
+    flex: 1;
+}
+.legal-center {
+    text-align: center;
+}
+.legal-left {
+    text-align: left;
+}
+.legal-right {
+    text-align: right;
+}
+.email {
+    color: rgb(207, 71, 119);
+    text-decoration: none;
+}
+.email:hover {
+    text-decoration: underline;
+}
+.page-content {
+    width: 60%;
+}
+.non-wrapped-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+.empty-space {
+    height: 55px;
+}
+.highlight-cherry {
+    font-weight: bold;
+    color: rgb(207, 71, 119);
+}
+.highlight-cherry-thin {
+    color: rgb(207, 71, 119);
+}
+.highlight-bold {
+    font-weight: bold;
+}
+.highlight-italic {
+    font-style: italic;
+}
+.first-par {
+    text-indent: 0px;
+}
+p {
+    text-indent: 20px;
+}
+.p-hyperlink {
+    color: inherit;
+}
+.big-small {
+    display: flex;
+    justify-content: space-between;
+}
+.big60 {
+    width: 60%;
+}
+.small35 {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small35 img, .big60 img {
+    max-width: 100%;
+    height: auto;
+}
+#rest-of-list {
+    width: 70%;
+}
+#keywords {
+    width: 25%;
+    font-stretch: condensed;
+    font-weight: 700;
+    font-style: italic;
+    color: grey;
+}
+.invisible-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.invisible-list li {
+    margin-bottom: 0;
+}
+.high-line-interval {
+    line-height: 150%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.high-line-interval li {
+    padding-bottom: 1.2em;
+}
+.image-and-source {
+    width: 100%;
+}
+.image-fit-to-page {
+    width: 100%;
+    height: auto;
+}
+.source {
+    font-size: smaller;
+    text-align: right;
+    margin-top: 0;
+    padding-top: 0;
+}
+@media (max-width: 600px) {
+    .page-content {
+        width: 90%;
+    } 
+    .menu {
+        flex-direction: column;
+    }
+    .main-menu, .so-me {
+        justify-content: center;
+    }
+}
+li {
+    margin-bottom: 0.5em;
+}
+.second-level-list {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+.second-level-list li {
+    margin-bottom: 1.2em;
+    line-height: 1.5;
+    color: black;
+}
+.rose-list {
+    list-style-type: none;
+    color:rgb(207, 71, 119);
+}
+.italic-list {
+    font-style: italic;
+    font-size: smaller;
+    line-height: normal;
+}
